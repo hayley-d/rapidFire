@@ -1,0 +1,263 @@
+body{
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#header{
+    height:50vh;
+}
+
+#black-white-pic
+{
+    background-image: url("fire_system2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#orange{
+    width:50%;
+    height:60%;
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grey{
+    width:100%;
+    height:80%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#white{
+    width:100%;
+    height:80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    background-image: url("logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+
+}
+
+.content{
+    margin:30px;
+    display: flex;
+    height:30vh;
+}
+
+#information{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+
+#about{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:30%;
+    font-size: x-large;
+}
+
+#contact{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width:30%;
+    font-size: x-large;
+}
+
+#contact ul{
+    list-style: none;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#contact span{
+    font-weight: bold;
+}
+
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact a:hover{
+    cursor: pointer;
+    color: darkorange;
+}
+
+#bnw-pic{
+    margin-top:1%;
+    margin-bottom:1%;
+    background-color: white;
+    height:40vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#valve{
+    background-image: url("system_value.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:60%;
+    height:100%;
+    border-radius: 15px;
+}
+
+#information hr{
+    width:50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   color: darkorange;
+    border: 0.5px solid orangered;
+}
+
+#about-heading{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-heading{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#choose-us{
+    margin-bottom:2%;
+    background-color: grey;
+    height:150vh;
+    display: flex;
+    flex-direction: column;
+    /*grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;*/
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+
+#sprinckler{
+    /*grid-column: span 2;*/
+    width:100%;
+    height:20%;
+    background-image: url("sprinkler.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#choose-txt{
+    color: white;
+    font-size: x-large;
+    width:40%;
+    text-align: center;
+}
+
+#service-txt{
+    color: white;
+    font-size: x-large;
+    width:40%;
+    text-align: center;
+}
+
+#choose-us h2{
+    font-weight: bold;
+
+    font-size: xx-large;
+}
+
+#txt{
+    display: flex;
+    gap:10%;
+    justify-content: center;
+    align-items: center;
+    height:30%;
+}
+
+#gas{
+    background-image: url("gas.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#system{
+    background-image: url("system2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#water{
+    background-image: url("water-supply.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#vent{
+    background-image: url("smoke-vent.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.pic-txt{
+    color: white;
+    background-color: orangered;
+    padding:0;
+    height:fit-content;
+    font-size: xxx-large;
+}
+
+.card{
+    height:600px;
+}
