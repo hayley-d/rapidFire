@@ -168,7 +168,7 @@ body{
 #choose-us{
     margin-bottom:2%;
     background-color: grey;
-    height:150vh;
+    height:100vh;
     display: flex;
     flex-direction: column;
     /*grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -252,7 +252,8 @@ body{
 
 .pic-txt{
     color: white;
-    background-color: orangered;
+
+    background-color: rgba(255, 69, 0, 0.5);
     padding:0;
     height:fit-content;
     font-size: xxx-large;
@@ -260,4 +261,132 @@ body{
 
 .card{
     height:600px;
+}
+
+#employees{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin-bottom: 5%;
+}
+
+.feature-icon{
+    background-color: darkorange;
+    border-radius: 5px;
+    border: 3px solid darkorange;
+}
+
+svg{
+    width: 1.2em;
+    height:1.2em;
+}
+
+.icon-heading{
+    color: darkorange;
+    font-weight: bold;
+}
+
+.col p{
+    font-size: x-large;
+}
+.headings{
+    color: darkorange;
+   text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+#emp-txt{
+    font-size: x-large;
+}
+
+.marketing{
+    background-color: #3B3A3A;
+    width:100%;
+    color: white;
+}
+
+#weld{
+    background-image: url("weld.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+#fix{
+    background-image: url("fix.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+#look{
+    background-image: url("look.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+.featurette-heading{
+    color: darkorange;
+    font-weight: bold;
+    font-size: xxx-large;
+
+}
+
+#grey-back{
+    background-color: #3B3A3A;
+}
+
+#accred{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+}
+
+#asib{
+    background-image: url("asib.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:200px;
+    height:200px;
+}
+
+#bis{
+    background-image: url("bsi.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:200px;
+    height:200px;
+}
+
+#all{
+    background-image: url("all.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:200px;
+    height:200px;
 }
